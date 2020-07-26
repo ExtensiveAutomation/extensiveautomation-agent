@@ -1,0 +1,2 @@
+include src/ea_agents/VERSION
+include src/ea_agents/settings.ini
