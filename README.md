@@ -76,10 +76,10 @@ between the agents plugins you want to use and the plugin to deploy on server si
 | Agent Plugins | Description | Server Plugins (must have) |
 | ------------- | ------------- | ------------- |
 | [curl](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-curl) | send http requests and analyze http responses | plugin-web |
-| [ssh](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-ssh) | execute shh commands | plugin-cli |
-| [selenium3](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-selenium3) | execute selenium3 commands | plugin-gui |
-| [sikuli](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-sikulix) | execute sikulix commands | plugin-gui |
-| [adb](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-adb) | execute adb commands | plugin-gui |
+| [ssh](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-ssh) | communicate with remote server through SSH | plugin-cli |
+| [selenium3](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-selenium3) | interact with a selenium server | plugin-gui |
+| [sikuli](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-sikulix) | run sikulix commands | plugin-gui |
+| [adb](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-adb) | execute adb and interact with your Android mobile | plugin-gui |
 | [socket](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-socket) | send and receive network packet |  |
 | [database](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-database) | query database | |
 | [ftp](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-ftp) | execute ftp commands |  |
