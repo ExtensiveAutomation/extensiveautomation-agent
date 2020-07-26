@@ -769,7 +769,7 @@ class TcpClientThread(threading.Thread):
                         logging.error( "Socks5: authentication type not supported: %s" % self.buf[1] )
                         self.onProxyConnectionError( err="Socks5: authentication type not supported: %s" % self.buf[1])
             else:
-                logging.error( 'proxy type unknown: %s' % str(e) )
+                logging.error( 'proxy type unknown: %s' % self.proxyType )
                 readTrueData = True
         except Exception as e:
             logging.error("more data needed for proxy handshake: %s" % e )

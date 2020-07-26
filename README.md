@@ -75,14 +75,14 @@ between the agents plugins you want to use and the plugin to deploy on server si
 
 | Agent Plugins | Description | Server Plugins (must have) |
 | ------------- | ------------- | ------------- |
-| [curl](https://github.com/ExtensiveAutomation/extensiveautomation-agent-curl) | send http requests and analyze http responses | plugin-web |
-| [ssh](https://github.com/ExtensiveAutomation/extensiveautomation-agent-ssh) | execute shh commands | plugin-cli |
-| [selenium3](https://github.com/ExtensiveAutomation/extensiveautomation-agent-selenium3) | execute selenium3 commands | plugin-gui |
-| [sikili](https://github.com/ExtensiveAutomation/extensiveautomation-agent-sikulix) | execute sikulix commands | plugin-gui |
-| [adb](https://github.com/ExtensiveAutomation/extensiveautomation-agent-adb) | execute adb commands | plugin-gui |
-| [socket](https://github.com/ExtensiveAutomation/extensiveautomation-agent-socket) | send and receive network packet |  |
-| [database](https://github.com/ExtensiveAutomation/extensiveautomation-agent-database) | query database | |
-| [ftp](https://github.com/ExtensiveAutomation/extensiveautomation-agent-ftp) | execute ftp commands |  |
+| [curl](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-curl) | send http requests and analyze http responses | plugin-web |
+| [ssh](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-ssh) | execute shh commands | plugin-cli |
+| [selenium3](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-selenium3) | execute selenium3 commands | plugin-gui |
+| [sikuli](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-sikulix) | execute sikulix commands | plugin-gui |
+| [adb](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-adb) | execute adb commands | plugin-gui |
+| [socket](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-socket) | send and receive network packet |  |
+| [database](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-database) | query database | |
+| [ftp](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-ftp) | execute ftp commands |  |
 
 
 ### Agent Deployment

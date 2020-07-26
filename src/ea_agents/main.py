@@ -103,7 +103,4 @@ def cli():
                     proxyIp=proxy_host, 
                     proxyPort=proxy_port)
 
-    try:
-        Settings.finalize()
-    except: pass
     sys.exit(0)    
