@@ -36,6 +36,10 @@ import threading
 import logging
 
 # adding missing folders
+if not os.path.exists( "%s/plugins" % Settings.getDirExec() ):
+    os.mkdir( "%s/plugins" % Settings.getDirExec() )
+if not os.path.exists( "%s/var" % Settings.getDirExec() ):
+    os.mkdir( "%s/var" % Settings.getDirExec() )
 if not os.path.exists( "%s/var/logs/" % Settings.getDirExec() ):
     os.mkdir( "%s/var/logs" % Settings.getDirExec() )
 if not os.path.exists( "%s/var/data/" % Settings.getDirExec() ):
