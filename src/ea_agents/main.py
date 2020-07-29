@@ -27,7 +27,6 @@ import optparse
 import sys
 import logging
 
-    
 settings.initialize()
         
 if not settings.cfgFileIsPresent():
@@ -46,8 +45,8 @@ parser.add_option('--remote', dest='remote', default='127.0.0.1',
 parser.add_option('--port', dest='port', default=8083,
                     help="Server port (optional default=8083)")
                     
-parser.add_option('--name', dest='agent_name',  
-                    help="Agent name (example: agent.win.curl01)")
+parser.add_option('--token', dest='token',  
+                    help="Token agent")
 
 parser.add_option('--proxy', dest='proxy', default=None, 
                     help="Proxy address:port (optional)")
@@ -66,7 +65,7 @@ logging.basicConfig(format='%(asctime)s %(message)s', level=logging_level)
 
 
 def cli():
-    if not options.agent_name:
+    if not options.token:
         parser.print_help()
         sys.exit(2)
 
@@ -95,7 +94,7 @@ def cli():
     mgnr.initialize(ip=options.remote, 
                     port=options.port, 
                     agent_type=agent_type, 
-                    agent_name=options.agent_name,
+                    agent_name=options.token,
                     sslSupport=True, 
                     isAgent=0, 
                     fromCmd=True,
