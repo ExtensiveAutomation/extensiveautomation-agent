@@ -78,7 +78,7 @@ between the agents plugins you want to use and the plugin to deploy on server si
 | ------------- | ------------- | ------------- |
 | [curl](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-curl) | send http requests and analyze http responses | plugin-web |
 | [ssh](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-ssh) | communicate with remote server through SSH | plugin-cli |
-| [selenium3](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-selenium3) | interact with a selenium server | plugin-gui |
+| [selenium3](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-selenium) | interact with a selenium server | plugin-gui |
 | [sikulix](https://github.com/ExtensiveAutomation/extensiveautomation-agent-plugin-sikulix) | run sikulix commands | plugin-gui |
 
 ### Agent Deployment
